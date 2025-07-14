@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import connectDB from "./config/db";
 import urlRoutes from "./routes/urlRoutes";
-import { loggingMiddleware } from "./utils/logger";
+import { loggingMiddleware } from "../../loggingMiddleware/loggingMiddleware";
 import { errorHandler } from "./middleware/errorHandler";
 import { redirectToUrl } from "./controllers/urlController";
 
